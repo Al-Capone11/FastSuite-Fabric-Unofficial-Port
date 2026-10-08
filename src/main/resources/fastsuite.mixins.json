@@ -1,0 +1,10 @@
+{
+  "client": [],
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "RecipeMapMixin"
+  ],
+  "required": true,
+  "package": "dev.shadowsoffire.fastsuite.mixin",
+  "minVersion": "0.8"
+}

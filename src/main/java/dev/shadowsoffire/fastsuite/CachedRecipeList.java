@@ -163,13 +163,11 @@ public class CachedRecipeList<C extends RecipeInput, T extends Recipe<C>> {
     }
 
     /**
-     * Checks if an Ingredient is safe to index. All vanilla and NeoForge ingredients are safe.
+     * In 26.2, Ingredient is final and its matching behavior is represented by the item stream.
      */
     private static boolean isSafeIngredient(Ingredient ingredient) {
-        if (!ingredient.isCustom())
-            return true;
-        return ingredientClassCache.computeIfAbsent(ingredient.getCustomIngredient().getClass(), clz -> {
-            return clz.getName().startsWith("net.neoforged.neoforge.common.crafting.");
-        });
+        return true;
     }
 }
+
+
