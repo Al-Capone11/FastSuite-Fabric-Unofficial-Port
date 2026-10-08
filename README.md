@@ -1,3 +1,5 @@
+This is an unofficial Fabric port of [FastSuite](https://github.com/Shadows-of-Fire/FastSuite).
+
 # FastSuite [![](http://cf.way2muchnoise.eu/fastsuite.svg)](https://www.curseforge.com/minecraft/mc-mods/fastsuite) [![](http://cf.way2muchnoise.eu/versions/fastsuite.svg)](https://www.curseforge.com/minecraft/mc-mods/fastsuite)
 
 FastSuite improves the performance of Minecraft's recipe system by building an index of items to recipes that use those items, skipping the need to check recipes that will never match anyway.
